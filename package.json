@@ -3,6 +3,26 @@
   "version": "1.0.0",
   "private": true,
   "description": "APiX gold-themed rewards platform with admin console (sandbox/manual-review mode).",
-  "scripts": {"start": "node server.js"},
-  "engines": {"node": ">=22"}
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@prisma/composer": "0.38.0",
+    "@prisma/composer-prisma-cloud": "0.38.0",
+    "@prisma/orm-postgres": "8.0.0-rc.23",
+    "effect": "4.0.5"
+  },
+  "devDependencies": {
+    "prisma": "8.0.0-rc.33"
+  },
+  "overrides": {
+    "@effect/platform-bun": "4.0.5",
+    "@effect/platform-node": "4.0.5",
+    "@effect/platform-node-shared": "4.0.5",
+    "@effect/vitest": "4.0.5",
+    "effect": "4.0.5"
+  }
 }
