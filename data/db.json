@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": "usr_22b44a81d4df8d47",
+      "username": "abek",
+      "email": "abelgfglkurah@gmail.com",
+      "passwordHash": "8b0aeecb058eb17de60393de6dde1467:7098f3aa9109e60ac288872ac224cd97912ebe2ab1aeec316e5ed47e03568671",
+      "balance": 155000,
+      "ngnBalance": 0,
+      "convertedAPX": 0,
+      "level": 1,
+      "totalTaps": 0,
+      "activated": false,
+      "joinedAt": "2026-11-14T10:59:27.383Z",
+      "lastTapAt": null,
+      "bank": null
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_5292abc34fe795ed",
+      "userId": "usr_22b44a81d4df8d47",
+      "type": "bonus",
+      "amount": 155000,
+      "meta": {
+        "label": "Welcome bonus"
+      },
+      "createdAt": "2026-11-14T10:59:27.383Z"
+    }
+  ],
+  "conversionRequests": [],
+  "withdrawalRequests": [],
+  "activationRequests": [],
+  "upgradeRequests": [],
+  "settings": {
+    "conversionFee": 0.071,
+    "activationFee": 8300,
+    "activationBankName": "Moniepoint MFB",
+    "activationAccountNumber": "0000000000",
+    "activationAccountHolder": "Nixi Platform",
+    "brand": "APiX",
+    "mode": "sandbox",
+    "upgradeAccounts": {
+      "2": {
+        "bankName": "Moniepoint MFB",
+        "accountNumber": "0000000000",
+        "accountHolder": "Nixi Platform"
+      },
+      "3": {
+        "bankName": "Moniepoint MFB",
+        "accountNumber": "0000000000",
+        "accountHolder": "Nixi Platform"
+      },
+      "4": {
+        "bankName": "Moniepoint MFB",
+        "accountNumber": "0000000000",
+        "accountHolder": "Nixi Platform"
+      },
+      "5": {
+        "bankName": "Moniepoint MFB",
+        "accountNumber": "0000000000",
+        "accountHolder": "Nixi Platform"
+      }
+    },
+    "supportTelegram": "",
+    "supportEmail": ""
+  }
+}

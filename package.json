@@ -1,0 +1,8 @@
+{
+  "name": "apix-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "APiX gold-themed rewards platform with admin console (sandbox/manual-review mode).",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=22"}
+}
